@@ -1,0 +1,18 @@
+#2_6
+
+#!/usr/bin/env python
+
+import socket
+
+socket.setdefaulttimeout(1)
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+#get server ip in the morning     s.connect((192.168.0.202, 22))
+
+#[Line 5] Receive the first 1024 bytes from the socket and save to a variable
+
+#[Line 6] Print the data received to the screen
+
+if __name__ == __main__:
+    main()
