@@ -4,8 +4,6 @@
 
 import socket
 
-socket.setdefaulttimeout(1)
-
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 #get server ip in the morning     s.connect((192.168.0.202, 22))
@@ -14,5 +12,5 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 #[Line 6] Print the data received to the screen
 
-if __name__ == __main__:
+if __name__ == "__main__":
     main()

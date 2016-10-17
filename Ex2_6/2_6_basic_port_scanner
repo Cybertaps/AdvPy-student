@@ -1,0 +1,11 @@
+import socket
+
+#socket.setdefaulttimeout(2)
+
+my_socket = socket.socket()
+
+my_socket.connect(("10.0.0.184", 5812)) #ports 2000-8000 IPs 100-200
+
+msg = my_socket.recv(1024)
+
+print msg
