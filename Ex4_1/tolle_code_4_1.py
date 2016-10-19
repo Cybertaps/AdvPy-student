@@ -4,7 +4,6 @@ import string
 import base64
 from Crypto.Cipher import AES
 
-
 def main():
     a = ""
     with open("ex4_1_data.txt") as fin:
