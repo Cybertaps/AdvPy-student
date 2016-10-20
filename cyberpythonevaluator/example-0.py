@@ -9,6 +9,7 @@ print "Example Input", challenge.example_input
 print "Example Output", challenge.example_output
 
 def solution (input_string) :
+
     return input_string
 
 #print challenge.validate(solution, debug=True)
