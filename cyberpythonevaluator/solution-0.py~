@@ -8,6 +8,9 @@ print "Description", challenge.description
 print "Example Input", challenge.example_input
 print "Example Output", challenge.example_output
 
+statement = raw_input("Type something")
+print solution(statement)
+
 def solution (input_string) :
 
     return input_string
